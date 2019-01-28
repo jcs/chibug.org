@@ -1,0 +1,32 @@
+plugins:
+  - jekyll-feed
+
+exclude:
+  - CNAME
+  - README.md
+  - .gitignore
+  - vendor
+
+markdown: kramdown
+
+# drop .html extension
+permalink: /:year/:month/:day/:title
+
+# show all posts since events are scheduled for the future
+future: true
+
+# mailing lists
+list_domain: "chibug.org"
+list_admin: "jcs@jcs.org"
+
+collections:
+  lists:
+    output: true
+
+# rss
+feed:
+  path: rss
+title: "ChiBUG: Chicago Area BSD Users Group"
+description: "ChiBUG: Chicago Area BSD Users Group"
+url: "https://chibug.org/"
+author: "jcs"

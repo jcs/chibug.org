@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<a href="/">&lt;&lt; View All Updates</a>
+
+<section class="update">
+	<header>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		<span class="details">
+			{{ post.date | date: "%B %d, %Y" }}
+		</span>
+	</header>
+
+	{{ post.content }}
+</section>

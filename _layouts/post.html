@@ -6,11 +6,11 @@ layout: default
 
 <section class="update">
 	<header>
-		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 		<span class="details">
-			{{ post.date | date: "%B %d, %Y" }}
+			{{ page.date | date: "%B %d, %Y" }}
 		</span>
 	</header>
 
-	{{ post.content }}
+	{{ page.content }}
 </section>

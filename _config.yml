@@ -15,6 +15,8 @@ permalink: /:year/:month/:day/:title
 # show all posts since events are scheduled for the future
 future: true
 
+url: https://chibug.org
+
 # mailing lists
 list_domain: "chibug.org"
 list_admin: "jcs@jcs.org"

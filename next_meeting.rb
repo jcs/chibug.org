@@ -54,7 +54,7 @@ end
 if !tues2
   first = Date.parse(Date.today.strftime("%Y-%m-01"))
 
-  tues2 = if first.wday < 2
+  tues2 = if first.wday <= 2
     # 1st of the month falls on a sunday/monday, second tuesday is 1 week after
     first + (2 - first.wday) + 7
   else

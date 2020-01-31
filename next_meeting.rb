@@ -22,6 +22,17 @@
 require "date"
 require "tempfile"
 
+def find_next_2nd_tuesday(date)
+  first = Date.parse(date.strftime("%Y-%m-01"))
+
+  if first.wday <= 2
+    # 1st of the month falls on a sunday/monday, second tuesday is 1 week after
+    return first + (2 - first.wday) + 7
+  else
+    return first + (2 - first.wday) + (7 * 2)
+  end
+end
+
 def ordinal(n)
   case n % 100
   when 11, 12, 13
@@ -52,13 +63,11 @@ if ARGV[0]
 end
 
 if !tues2
-  first = Date.parse(Date.today.strftime("%Y-%m-01"))
+  tues2 = find_next_2nd_tuesday(Date.parse(Date.today.strftime("%Y-%m-01")))
 
-  tues2 = if first.wday <= 2
-    # 1st of the month falls on a sunday/monday, second tuesday is 1 week after
-    first + (2 - first.wday) + 7
-  else
-    first + (2 - first.wday) + (7 * 2)
+  while tues2 < Date.today
+    # assume next month
+    tues2 += 28
   end
 end
 

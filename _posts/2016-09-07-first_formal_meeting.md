@@ -16,5 +16,5 @@ retiring to a nearby pub/restaurant afterwards.
 
 If you plan on attending and/or would like to give a presentation, please
 subscribe and post to our
-[mailing list](/lists/talk)
+[mailing list](https://groups.io/g/chibug)
 for futher details.

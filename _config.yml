@@ -17,14 +17,6 @@ future: true
 
 url: https://chibug.org
 
-# mailing lists
-list_domain: "chibug.org"
-list_admin: "jcs@jcs.org"
-
-collections:
-  lists:
-    output: true
-
 # rss
 feed:
   path: rss

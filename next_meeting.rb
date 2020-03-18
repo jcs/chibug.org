@@ -90,7 +90,7 @@ at
 our usual place: Giordano's at 1115 W. Chicago Ave. in Oak Park.
 
 If you plan on attending, please post to the
-[mailing list](/lists/talk)
+[mailing list](https://groups.io/g/chibug)
 so we can get an estimated head count.
 If you change your mind or are running late, please email the mailing list so
 we can organize accordingly.
@@ -129,7 +129,7 @@ system(
 	"mutt",
 	"-s", "#{tues2.strftime("%B %-d")}#{ordinal(tues2.day)} Meeting",
 	"-i", t.path,
-	"talk@chibug.org"
+	"chibug@groups.io"
 )
 
 File.unlink(t.path)

@@ -33,4 +33,4 @@ There is WiFi available and a WiFi-ethernet bridge and a few cables will be
 brought for those bringing equipment needing ethernet.
 
 If you plan on attending, please send a message to our
-[mailing list](/lists/talk).
+[mailing list](https://groups.io/g/chibug).

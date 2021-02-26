@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "November meeting rescheduled"
+author: jcs
 ---
 
 Due to the possibility of the Cubs playing on Wednesday night, we have

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First formal meeting announced"
+author: jcs
 ---
 
 We will be holding our first formal meeting at

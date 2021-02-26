@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First informal meeting announced"
+author: jcs
 ---
 
 A few people will be meeting at

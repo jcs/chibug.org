@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "February 26th Meetup/Installfest"
+author: jcs
 ---
 
 February's meeting will be on

@@ -20,7 +20,6 @@ url: https://chibug.org
 # rss
 feed:
   path: rss
-title: "ChiBUG: Chicago Area BSD Users Group"
-description: "ChiBUG: Chicago Area BSD Users Group"
-url: "https://chibug.org"
-author: "jcs"
+  title: "ChiBUG: Chicago Area BSD Users Group"
+  description: "ChiBUG: Chicago Area BSD Users Group"
+  url: "https://chibug.org"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "October meeting coming up"
+author: jcs
 ---
 
 Reminder that our next meeting is on Wednesday, October 5th from 6pm to 8pm.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "October meeting slides"
+author: jcs
 ---
 
 Slides from October's meeting are available:

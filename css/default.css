@@ -546,6 +546,22 @@ div.fieldWithErrors textarea {
 	border: 2px solid red;
 	padding: 2px;
 }
+.friend {
+	/* boxes
+	border: 1px solid #b3ddf2;
+	border-radius: 1rem; */
+	display: flex;
+}
+.friend img {
+	margin: 15px;
+}
+.friend a {
+	display: flex;
+	margin: 20px 15px;
+}
+.friend p {
+	margin: 15px;
+}
 
 
 /* mobile view */

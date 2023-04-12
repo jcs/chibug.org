@@ -511,6 +511,51 @@ ul.mailinglist span.date {
 	padding-left: 0.5em;
 }
 
+.friend {
+	/* boxes
+	border: 1px solid #b3ddf2;
+	border-radius: 1rem; */
+	display: flex;
+}
+.friend img {
+	margin: 15px;
+}
+.friend a {
+	display: flex;
+	margin: 20px 15px;
+}
+.friend p {
+	margin: 15px;
+}
+
+.page_nav {
+	text-align: center;
+	margin-top: 3em;
+	color: #555;
+}
+.page_nav.top {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+.page_nav .page {
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left: 0.5em;
+	text-align: center;
+	border-radius: 8px;
+}
+.page_nav .page.ellipses {
+	border-color: transparent;
+}
+
+.page_nav .page.cur_page {
+	background-color: #f7f7f2;
+	font-weight: bold;
+	color: #555;
+}
+
+
 /* for flash_errors(), flash_notices() and flash_successes() */
 div.flash-error,
 div.flash-notice,
@@ -545,22 +590,6 @@ div.fieldWithErrors select,
 div.fieldWithErrors textarea {
 	border: 2px solid red;
 	padding: 2px;
-}
-.friend {
-	/* boxes
-	border: 1px solid #b3ddf2;
-	border-radius: 1rem; */
-	display: flex;
-}
-.friend img {
-	margin: 15px;
-}
-.friend a {
-	display: flex;
-	margin: 20px 15px;
-}
-.friend p {
-	margin: 15px;
 }
 
 

@@ -1,5 +1,6 @@
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 exclude:
   - CNAME
@@ -14,6 +15,9 @@ permalink: /:year/:month/:day/:title
 
 # show all posts since events are scheduled for the future
 future: true
+
+paginate: 12
+paginate_path: "/page/:num"
 
 url: https://chibug.org
 

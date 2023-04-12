@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 	<section class="update">
 		<header>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -16,3 +16,18 @@ layout: default
 		{{ post.content }}
 	</section>
 {% endfor %}
+
+<div class="page_nav">
+	Page:
+	{% for page in (1..paginator.total_pages) %}
+		{% if page == paginator.page %}
+			<a class="page cur_page">
+				{{ page }}
+			</a>
+		{% elsif page == 1 %}
+			<a href="/" class="page">{{ page }}</a>
+		{% else %}
+			<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="page">{{ page }}</a>
+		{% endif %}
+	{% endfor %}
+</div>

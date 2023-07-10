@@ -80,6 +80,7 @@ File.open(fn = "_posts/#{tues2.strftime("%Y-%m-%d")}-meeting.md", "w+") do |f|
 ---
 layout: post
 title: "#{tues2.strftime("%B %-d")}#{ordinal(tues2.day)} Meetup"
+author: #{`whoami`.strip}
 ---
 
 ChiBUG will be meeting on

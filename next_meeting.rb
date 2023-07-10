@@ -87,7 +87,8 @@ ChiBUG will be meeting on
 at
 6pm
 at
-our usual place: Giordano's at 1115 W. Chicago Ave. in Oak Park.
+our usual place:
+[Giordano's at 1115 W. Chicago Ave. in Oak Park](https://www.google.com/maps/dir//Giordano's,+1115+Chicago+Ave,+Oak+Park,+IL+60302).
 
 If you plan on attending, please post to the
 [mailing list](https://groups.io/g/chibug)

@@ -9,5 +9,5 @@ Tuesday, January 9th, 2024
 due to the weather.
 
 We'll post on the
-[mailing list](https://groups.io/g/chibug)
+[mailing list]()
 once a new date is agreed upon.
